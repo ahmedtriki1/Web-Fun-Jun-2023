@@ -1,0 +1,42 @@
+h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 1100px;
+    width: 1250px;
+    margin: 0 auto;
+    background-color: rgba(229, 250, 255, 1);
+    padding: 20px;
+}
+
+.top{
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    padding: 20px;
+    background-color:rgba(79, 187, 245, 1);
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.main{
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    padding: 20px;
+    background-color:rgba(191, 154, 172, 1);
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.bot{
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    padding: 20px;
+    background-color:white;
+    justify-content: space-around;
+}
+.footer{
+    text-align: center;
+}
